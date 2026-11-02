@@ -1,0 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Trained models and serialized artifacts
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# Datasets and spreadsheets
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsm
+*.ods
+
+# Secrets and local env
+.env
+.env.*
+
+# Logs and OS junk
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
